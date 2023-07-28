@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "az204_azure_function": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7073",
+      "launchBrowser": false
+    }
+  }
+}
