@@ -55,4 +55,18 @@ static async Task ProcessAsync()
             " the blobs next.");
     Console.WriteLine("Press 'Enter' to continue.");
     Console.ReadLine();
+
+
+    // List blobs in the container
+    Console.WriteLine("Listing blobs...");
+    await foreach (BlobItem blobItem in containerClient.GetBlobsAsync())
+    {
+        Console.WriteLine("\t" + blobItem.Name);
+    }
+
+    Console.WriteLine("\nYou can also verify by looking inside the " + 
+            "container in the portal." +
+            "\nNext the blob will be downloaded with an altered file name.");
+    Console.WriteLine("Press 'Enter' to continue.");
+    Console.ReadLine();
 }
