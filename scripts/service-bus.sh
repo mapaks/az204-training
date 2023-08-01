@@ -15,3 +15,6 @@ az servicebus namespace create \
 az servicebus queue create --resource-group az204-svcbus-rg \
     --namespace-name $myNameSpaceName \
     --name az204-queue
+
+# Remove the resource group
+az group delete --name az204-svcbus-rg --yes --no-wait
