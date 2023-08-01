@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "EmQmRKn06RUGAkSb5drijGVKQZ6y5mSEu+x5dmK8tux3k/VJmH0OTUsg6TX0aI44hCD1pjytUkIAxPdXbNXxMQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nluma\\source\\repos\\az204-training\\Rediscache\\Rediscache.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nluma\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\nluma\\.nuget\\packages\\stackexchange.redis\\2.6.122\\stackexchange.redis.2.6.122.nupkg.sha512",
+    "C:\\Users\\nluma\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
